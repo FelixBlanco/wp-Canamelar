@@ -7,13 +7,93 @@ Description: Desarrollado para canamelar.com.ve/ para hacer la explanción tecno
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: blog, two-columns, left-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-logo, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
-Text Domain: twentyfifteen
 
-inportacion de tipografia de Google Fonts */
+==========================
+# INDICE
+===========================
+- Tipografias
+- General
+- Recursos
+- Header
+- Footer
 
+Importación de tipografia de Google Fonts  */
 @import url('https://fonts.googleapis.com/css?family=Lobster|PT+Sans');
 
 /* Tipografias 
 font-family: 'PT Sans', sans-serif;
 font-family: 'Lobster', cursive;
 */
+
+/**********************
+# GENERAL
+***********************/
+body,html{
+	font-family: 'PT Sans', sans-serif;
+	height: 100%;
+	margin: 0px;
+}
+h1,h2,h3{
+	font-family: 'Lobster', cursive;
+}
+
+/**********************
+# RECURSOS
+***********************/
+.img-propy{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.height500{
+	height: 500px;
+}
+.TextBlack a{
+	color: black;
+	text-decoration: none;
+}
+.MarginTop2{
+	margin-top: 2%;
+}
+.PocoPadding{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.min{
+	min-height: 70%;
+}
+
+/**********************
+# HEADER
+***********************/
+header{
+	background-color: #E75A7C;
+	background: -o-linear-gradient(#E75A7C, #E05263);
+	background: -webkit-linear-gradient(#E75A7C, #E05263);
+	background: linear-gradient(#E75A7C, #E05263);
+	color: white;
+}
+header ul{
+	margin-top: 4%;
+}
+header ul li{
+	margin-left: 2%;
+}
+header a{
+	color: white;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 18px;
+}
+header a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+
+/**********************
+# FOOTER
+***********************/
+footer{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
