@@ -16,6 +16,9 @@ Tags: blog, two-columns, left-sidebar, accessibility-ready, custom-background, c
 - Recursos
 - Header
 - Footer
+- Dias que faltan
+- Loop landing
+- Normas
 
 Importación de tipografia de Google Fonts  */
 @import url('https://fonts.googleapis.com/css?family=Lobster|PT+Sans');
@@ -96,4 +99,61 @@ header a:hover{
 footer{
 	padding-top: 20px;
 	padding-bottom: 20px;
+}
+
+/**********************
+# DIAS FALTAN
+***********************/
+#FaltanDias{
+	margin-bottom: 2%;
+}
+#FaltanDias h2{
+	background-color: #1730C7;
+	border-radius: 6px; 
+	box-shadow: 0px 1px 1px black;
+	color: white;
+	font-family: 'Lobster', cursive;
+	margin-left: 20px;
+	margin-top: 30%;
+	padding: 10px;
+	position: absolute;
+	display: none;
+}
+
+/**********************
+# LOOP LANDING
+***********************/
+#LoopLanding{
+	background-color: #F2F1F1;
+	margin-bottom: 3%;
+	margin-top: 3%;
+	padding-bottom: 3%;
+	padding-top: 3%;
+}
+#LoopLanding article{
+	background-color: white;
+	border-radius: 6px;
+	box-shadow: 0px 1px 1px #F4F3F3;
+	cursor: pointer;
+	padding: 10px;
+}
+#LoopLanding article:hover{
+	box-shadow: 0px 1px 1px #CB28D5;
+}
+#LoopLanding article h2{
+	font-size: 20px;
+}
+
+/**********************
+# NORMAS
+***********************/
+#normas ul{
+	background-color: white;
+	border-radius: 0px 0px 6px 6px;
+	box-shadow: 0px 1px 1px #F2F2F2;
+	padding: 10px;
+}
+#normas li{
+	list-style: none;
+	margin-bottom: 3%;
 }
