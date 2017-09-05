@@ -8,3 +8,9 @@
 		</div>
 	</div>
 </section>
+
+<script>
+	$(document).ready(function(){
+		$("#MovimientoFalta").fadeIn('slow',300);
+	});
+</script>
