@@ -1,0 +1,19 @@
+/*
+Theme Name: Canamelar Familia
+Theme URI: https://felixblanco.com.ve
+Author: Felix Blanco
+Author URI: https://felixblanco.com.ve/
+Description: Desarrollado para canamelar.com.ve/ para hacer la explanción tecnologia
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, two-columns, left-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-logo, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Text Domain: twentyfifteen
+
+inportacion de tipografia de Google Fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Lobster|PT+Sans');
+
+/* Tipografias 
+font-family: 'PT Sans', sans-serif;
+font-family: 'Lobster', cursive;
+*/
