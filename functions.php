@@ -18,3 +18,38 @@ function your_themes_pagination(){
     global $wp_query; 
     echo paginate_links();
 }
+
+function DiasQueFaltan(){
+
+	// Recursos 
+	$arrayName = array(
+		'MesActual'		=> date('n'),
+		'MesDelA' 		=> 12,
+		'DiasDelMes' 	=> 31,
+		'DiaActual'		=> date('j')
+	 );
+
+	if ($arrayName['MesActual'] == 12) {
+
+		// Estamos en DICIEMBRE
+		if ($arrayName['DiaActual'] == 27) {
+			echo "Todo listo para el Grito del Mono.";
+		}elseif ($arrayName['DiaActual'] == 28){
+			echo "Te esperamos para Bailar Monoooo 28.";
+		}elseif ($arrayName['DiaActual'] == 29 and $arrayName['DiaActual'] == 30  ){
+			echo "Muchas Gracias por visitarnos, no olvides compartir las fotos con nosotros";
+		}elseif ($arrayName['DiaActual'] == 31){
+			echo "Toda la Familia de Canamelar les desea Feliz año y un prospero año nuevo";
+		}else{
+			$DiasFaltante=$arrayName['DiasDelMes']-$arrayName['DiaActual'];
+			echo "Faltan ".$DiasFaltante." Para Bailar Moooonoo 28";
+
+		}
+
+	}else{
+		$MesesQueFaltan= $arrayName['MesDelA']-$arrayName['MesActual']; // Dias que faltan
+		echo "Faltan ".$MesesQueFaltan." meses para el Baile de Mono 28";
+
+	}
+
+} 

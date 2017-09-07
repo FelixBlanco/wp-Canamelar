@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+	
 	<meta charset="UTF-8">
+ 	<meta name="description" content="Parranda Canamelar, baile cultural del mono 28 de caicara de maturín, unimos toda la cultira y la historia en un solo lugar.">
+ 	<meta name="keywords" content="historia,canamelar,mono de caicara,mono,baile del mono, mono mono, cultura, tradicion del baile del mono">
+ 	<meta name="author" content="Canamelar">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<title><?php bloginfo('name');  ?></title>
+	<title> <?php bloginfo('name');  ?></title>
 
 	<!-- Personalizacion de los iconos que vamos a utilizar -->
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/ico/style.css">
@@ -26,16 +31,18 @@
 <header>
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-6">
-				<h1>Canamelar</h1>
+			<div class="col-md-1">
+				<a href="<?php bloginfo('url'); ?>">
+				<img src="<?php bloginfo('template_url'); ?>/img/MonaLogo.png" alt="logo de Canamelar Baile del Mono" width="100" class="img-responsive"></a>
+			</div>
+			<div class="col-md-5">
+				<a href="<?php bloginfo('url'); ?>"><h1>Canamelar</h1></a>
 			</div>
 			<div class="col-md-6">
 				<nav class="text-center">
 					<ul class="list-inline">
-						<li><a href="http://localhost/wordpress/index.php/paginaejemplo2/">Baile del Mono</a></li>
-						<li><a href="http://localhost/wordpress/index.php/somo-canamelar/">Canamelar</a></li>
-						<li><a href="http://localhost/wordpress/index.php/paginaejemplo1/">Historias</a></li>
-						<li><a href="#">Presentaciones</a></li>
+						<li><a href="<?php bloginfo('url'); ?>">Inicio</a></li>
+						<li><a href="<?php bloginfo('url'); ?>/index.php/articulos">Articulos</a></li>
 					</ul>
 				</nav>
 			</div>

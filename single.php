@@ -19,7 +19,19 @@
 							<?php the_tags(); ?>
 						</div>
 					</div>
-
+					<div class="row">
+						<div class="col-md-12">
+							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+							<!-- canamelar-dos -->
+							<ins class="adsbygoogle"
+							     style="display:inline-block;width:728px;height:90px"
+							     data-ad-client="ca-pub-8885363887400217"
+							     data-ad-slot="9967592549"></ins>
+							<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+							</script>
+						</div>
+					</div>
 				<?php endwhile ?>
 		
 			</div>
@@ -27,6 +39,19 @@
 				<?php if ( is_active_sidebar( 'home_right_1' ) ) : ?>
 					<?php dynamic_sidebar( 'home_right_1' ); ?>
 				<?php endif; ?>
+
+				<div style="height: 400px;">
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+					<!-- canamelar-uno -->
+					<ins class="adsbygoogle"
+					     style="display:block"
+					     data-ad-client="ca-pub-8885363887400217"
+					     data-ad-slot="4822242929"
+					     data-ad-format="auto"></ins>
+					<script>
+					(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
+				</div>
 			</div>
 		</div>
 	</div>

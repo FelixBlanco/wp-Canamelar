@@ -7,7 +7,7 @@
 				<div class="col-md-4">
 					<article>
 						<a href="<?php the_permalink(); ?>">
-						<?php the_post_thumbnail('medium',['class'=>'img-responsive, center-block']); ?>
+						<?php the_post_thumbnail('',['class'=>'img-responsive center-block']); ?>
 						<?php the_title('<h2>','</h2>'); ?></a>
 						<div class="row">
 							<div class="col-md-4"> <?php the_time('d M Y'); ?></div>
