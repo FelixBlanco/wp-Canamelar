@@ -42,8 +42,8 @@
 			<div class="col-md-6">
 				<nav class="text-center">
 					<ul class="list-inline">
-						<li><a href="<?php bloginfo('url'); ?>">Inicio</a></li>
-						<li><a href="<?php bloginfo('url'); ?>/index.php/articulos">Articulos</a></li>
+						<li><a href="<?php bloginfo('url'); ?>"><span class="glyphicon glyphicon-home"></span>Inicio</a></li>
+						<li><a href="<?php bloginfo('url'); ?>/index.php/articulos"><span class="glyphicon glyphicon-book"></span>Articulos</a></li>
 					</ul>
 				</nav>
 			</div>
