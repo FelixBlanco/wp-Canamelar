@@ -7,8 +7,8 @@
 				</p>
 			</div>
 			<div class="col-md-4 text-center">
-				<h5><span class="icon-mobile"></span> Yisaida Evariste 0424-90-889-51</h5>
-				<h5><span class="icon-envelope"></span> canamelar@gmail.com</h5>
+				<h5><span class="glyphicon glyphicon-earphone"></span> Yisaida Evariste 0424-90-889-51</h5>
+				<h5><span class="glyphicon glyphicon-envelope"></span> canamelar@gmail.com</h5>
 
 				<ul class="list-inline">
 					<li><a href="https://www.facebook.com/canamelar.evariste" target="_blank"><img src=" <?php bloginfo('template_url'); ?>/img/r_s/facebook.png" alt="facebook de canamelar" class="img-responsive center-block" width="40"> </a></li>
