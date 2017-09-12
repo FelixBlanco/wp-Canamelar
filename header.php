@@ -33,7 +33,8 @@
 		<div class="row">
 			<div class="col-md-1">
 				<a href="<?php bloginfo('url'); ?>">
-				<img src="<?php bloginfo('template_url'); ?>/img/MonaLogo.png" alt="logo de Canamelar Baile del Mono" width="100" class="img-responsive"></a>
+					<img src="<?php bloginfo('template_url'); ?>/img/MonaLogo.png" alt="logo de Canamelar Baile del Mono" width="100" class="img-responsive">
+				</a>
 			</div>
 			<div class="col-md-5">
 				<a href="<?php bloginfo('url'); ?>"><h1>Canamelar</h1></a>
