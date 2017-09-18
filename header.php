@@ -3,7 +3,7 @@
 <head>
 	
 	<meta charset="UTF-8">
- 	<meta name="description" content="Parranda Canamelar, baile cultural del mono 28 de caicara de maturín, unimos toda la cultira y la historia en un solo lugar.">
+ 	<meta name="description" content="Somos Canamelar, parranda que busca mantener y fortalecer la cultura y nuestra tradiciones del todo el Estado Monagas por medio de nuestra bailes e investigaciones. ">
  	<meta name="keywords" content="historia,canamelar,mono de caicara,mono,baile del mono, mono mono, cultura, tradicion del baile del mono">
  	<meta name="author" content="Canamelar">
  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,19 +31,19 @@
 <header>
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-1">
+			<div class="col-md-4">
+				<a href="<?php bloginfo('url'); ?>" class="text-center" ><h1>Canamelar</h1></a>
+			</div>
+			<div class="col-md-3">
 				<a href="<?php bloginfo('url'); ?>">
-					<img src="<?php bloginfo('template_url'); ?>/img/MonaLogo.png" alt="logo de Canamelar Baile del Mono" width="100" class="img-responsive">
+					<img src="<?php bloginfo('template_url'); ?>/img/MonaLogo.png" alt="logo de Canamelar Baile del Mono" width="100" class="img-responsive center-block">
 				</a>
 			</div>
 			<div class="col-md-5">
-				<a href="<?php bloginfo('url'); ?>"><h1>Canamelar</h1></a>
-			</div>
-			<div class="col-md-6">
 				<nav class="text-center">
 					<ul class="list-inline">
-						<li><a href="<?php bloginfo('url'); ?>"><span class="glyphicon glyphicon-home"></span>Inicio</a></li>
-						<li><a href="<?php bloginfo('url'); ?>/index.php/articulos"><span class="glyphicon glyphicon-book"></span>Articulos</a></li>
+						<li><a href="<?php bloginfo('url'); ?>"><span class="glyphicon glyphicon-home"></span> Inicio</a></li>
+						<li><a href="<?php bloginfo('url'); ?>/index.php/articulos"><span class="glyphicon glyphicon-book"></span> Articulos</a></li>
 					</ul>
 				</nav>
 			</div>

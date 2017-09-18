@@ -10,16 +10,17 @@
 						<?php the_post_thumbnail('',['class'=>'img-responsive center-block']); ?>
 						<?php the_title('<h2>','</h2>'); ?></a>
 						<div class="row">
-							<div class="col-md-4"><span class="glyphicon glyphicon-calendar"></span> <?php the_time('d M Y'); ?></div>
-							<div class="col-md-4"><span class="glyphicon glyphicon-tag"></span><?php the_category(','); ?></div>
+							<div class="col-md-12">
+
+								<span class="glyphicon glyphicon-calendar"></span> <?php the_time('d M Y'); ?>
+
+								<span class="glyphicon glyphicon-tag"></span> <?php the_category(','); ?></div>
+
 						</div>
 						<div class="text-justify">
-							<a href=" <?php the_permalink(); ?> ">
-								<?php the_excerpt(); ?>
-							</a>
 						</div>
 						<div>
-							<span class="glyphicon glyphicon-tag"></span><?php the_tags(); ?>
+							<span class="glyphicon glyphicon-tag"></span> <?php the_tags(); ?>
 						</div>
 					</article>
 				</div>

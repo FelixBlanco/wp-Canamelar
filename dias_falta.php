@@ -1,5 +1,5 @@
 <!-- Dias que Faltan -->
-<section id="FaltanDias" class="img-propy height500" style="background-image: url(' <?php bloginfo('template_url' ); ?>/img/16.jpg ');">
+<section id="FaltanDias" style="background-image: url(' <?php bloginfo('template_url' ); ?>/img/16.jpg ');" class="img-propy height500 OcultarImgFondo">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-12">

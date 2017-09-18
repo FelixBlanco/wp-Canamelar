@@ -9,11 +9,14 @@
 					<?php the_post_thumbnail('large',['class'=>'img-responsive  center-block']); ?>
 					<?php the_title('<h2>','</h2>'); ?>
 					<div class="row PocoPadding">
-						<div class="col-md-4"><span class="glyphicon glyphicon-calendar"></span>Publicado: <?php the_time('d M Y'); ?></div>
-						<div class="col-md-4">
-						<span class="glyphicon glyphicon-tag"></span>Categorias: <?php the_category(','); ?></div>
+						<div class="col-md-12">
+							<span class="glyphicon glyphicon-calendar"></span> Publicado: <?php the_time('d M Y'); ?>
+
+						<span class="glyphicon glyphicon-tag"></span> Categorias: <?php the_category(','); ?></div>
 					</div>
-					<?php the_content(); ?>
+					<div class="ContParaLeer">
+						<?php the_content(); ?>
+					</div>
 					
 					<div class="row">
 						<div class="col-md-12">

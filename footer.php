@@ -29,6 +29,9 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+<!-- Jquery -->
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
 <script>
 
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -38,6 +41,12 @@
 
   ga('create', 'UA-48056058-1', 'auto');
   ga('send', 'pageview');
+
+$(document).ready(function(){
+
+	$("img").addClass('img-responsive');
+
+});
 
 </script>
 
